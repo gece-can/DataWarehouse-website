@@ -1,0 +1,41 @@
+
+.main-section-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+
+.main-section-div .des h1{
+    color: #272d4e;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.main-section-div .des p{
+    color: #4b5d68;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.main-section-div .image img{
+    width: 600px;
+}
+
+.main-section-div .des .purple-button{
+    font-size: 1rem;
+    background-color:purple;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    color: white;
+    opacity: 0.7;
+    transition: 0.3s ;
+    user-select: none;
+
+}
+
+.main-section-div .des .purple-button:hover{
+    opacity: 1;
+}
