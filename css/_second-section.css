@@ -1,0 +1,98 @@
+.second-section-title{
+    margin: 5rem 0;
+    text-align: center;
+    padding: 0rem 15rem;   
+}
+
+.second-section-title h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #272d4e;
+}
+
+.second-section-title p{
+    color: #4b5d68;
+    line-height: 2rem;
+}
+
+.second-section-div {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.first-div{
+    display: flex;
+    background-image: url('../img/feature-bg-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 25rem;
+    align-items: center;
+}
+
+.second-div{
+    display: flex;
+    background-image: url('../img/feature-bg-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 25rem;
+    align-items: center;
+
+}
+
+.third-div{
+    display: flex;
+    background-image: url('../img/feature-bg-3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 25rem;
+    align-items: center;
+
+}
+
+.fourth-div{
+    display: flex;
+    background-image: url('../img/feature-bg-4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 25rem;
+    align-items: center;
+}
+
+.divs-des{
+    margin-left: 1rem;
+}
+
+.divs-des h3{
+    font-size: 1.5rem;
+    color: #272d4e;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.divs-des p{
+    line-height: 1.5rem;
+    color: #4b5d68;
+    margin-bottom: 1rem;
+}
+
+.divs-des a{
+    color: #4b5d68;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.divs-des a:hover{
+    opacity: 1;
+}
+
+.divs-des a img{
+    margin-left: 0.5rem;
+    width: 1.8rem;
+    padding-left: 3px;
+    padding-right: 3px;
+}

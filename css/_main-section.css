@@ -1,7 +1,6 @@
 
 .main-section-div{
     display: flex;
-    justify-content: space-between;
     margin-top: 12rem;
 }
 
@@ -37,6 +36,7 @@
     padding: 1rem 2rem;
     border-radius: 2rem;
     color: white;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
     transition: 0.3s;
 }
 

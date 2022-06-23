@@ -4,6 +4,10 @@
     margin: 0 auto;
 }
 
+.add-shadow{
+    box-shadow: 0 0.4375rem 0.875rem 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%) !important;
+}
+
 .header{
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -11,7 +15,6 @@
     background-color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    box-shadow: 0 0.4375rem 0.875rem 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%) !important;
 }
 
 .navbar{

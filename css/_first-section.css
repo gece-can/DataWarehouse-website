@@ -1,15 +1,13 @@
 .first-section-div{
-    background-color: #fff;
+    background-color: aqua ;
     display: flex;
     align-items: center;
     margin-top: 6.5rem;
-    padding: 1rem;
     border-radius: 3rem;
 }
 
 .first-section-div img{
     width: 450px;
-    
 }
 
 .first-section-div .des{
