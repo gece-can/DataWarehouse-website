@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
     <header class="header" >
@@ -156,6 +157,126 @@
         </div>
     </section>
 
+    <section class="slider-section">
+        <div class="container">
+            <div class="slider">
+                <h3>Testimonials</h3>
+                <div class="card-content">
+                    <!-- CARD START -->
+                    <div class="card">
+                        <div class="image-div">
+                            <img src="gallery/1.png" alt="">
+                            <div class="name">
+                                <h6>John Fang</h6>
+                                <p>wordfaang.com</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>
+                                “Wow...I am very happy to<br>
+                                use this VPN, it turned out<br>
+                                to be more than my<br>
+                                expectations and so far<br>
+                                there have been no problems.<br>
+                                LaslesVPN always the best”.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- CARD END -->
+    
+                    <!-- CARD START -->
+                    <div class="card">
+                        <div class="image-div">
+                            <img src="gallery/2.png" alt="">
+                            <div class="name">
+                                <h6>Jeny Doe</h6>
+                                <p>UX Engineer</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>
+                                “I like it because I like to<br> 
+                                travel far and still can <br>
+                                connect with high speed.”
+                            </p>
+                        </div>
+                    </div>
+                    <!-- CARD END -->
+    
+                    <!-- CARD START -->
+                    <div class="card">
+                        <div class="image-div">
+                            <img src="gallery/3.png" alt="">
+                            <div class="name">
+                                <h6>William</h6>
+                                <p>Web Designer</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>
+                            “Lorem ipsum dolor sit amet <br>
+                            consectetur adipisicing elit. <br>
+                            Dolorum, nesciunt?”
+                            </p>
+                        </div>
+                    </div>
+                    <!-- CARD END -->
+    
+                    <!-- CARD START -->
+                    <div class="card">
+                        <div class="image-div">
+                            <img src="gallery/3.png" alt="">
+                            <div class="name">
+                                <h6>William</h6>
+                                <p>Web Designer</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>
+                            “Lorem ipsum dolor sit amet <br>
+                            consectetur adipisicing elit. <br>
+                            Dolorum, nesciunt?”
+                            </p>
+                        </div>
+                    </div>
+                    <!-- CARD END -->
+    
+                    <!-- CARD START -->
+                    <div class="card">
+                        <div class="image-div">
+                            <img src="gallery/3.png" alt="">
+                            <div class="name">
+                                <h6>William</h6>
+                                <p>Web Designer</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>
+                            “Lorem ipsum dolor sit amet <br>
+                            consectetur adipisicing elit. <br>
+                            Dolorum, nesciunt?”
+                            </p>
+                        </div>
+                    </div>
+                    <!-- CARD END -->
+                </div>
+                
+                <div class="btn-div">
+                    <button id="prev" class="btn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+    
+                    <button id="next" class="btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
     <script>
         window.addEventListener('scroll',(e)=>{
           const nav = document.querySelector('.header');
@@ -166,6 +287,23 @@
             nav.classList.remove("add-shadow");
           }
         });
+
+
+        const next=document.querySelector('#next')
+        const prev=document.querySelector('#prev')
+
+        function handleScrollNext (direction) {
+        const cards = document.querySelector('.card-content')
+        cards.scrollLeft=cards.scrollLeft += window.innerWidth / 2 > 600 ? window.innerWidth /2 : window.innerWidth -100
+        }
+
+        function handleScrollPrev (direction) {
+        const cards = document.querySelector('.card-content')
+        cards.scrollLeft=cards.scrollLeft -= window.innerWidth / 2 > 600 ? window.innerWidth /2 : window.innerWidth -100
+        }
+
+        next.addEventListener('click', handleScrollNext)
+        prev.addEventListener('click', handleScrollPrev)
       </script>
 </body>
 </html>

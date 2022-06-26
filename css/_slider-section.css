@@ -1,0 +1,65 @@
+.card-content{
+    display: flex;
+    max-width: 75vw;
+    overflow: hidden;
+    scroll-behavior:smooth;
+}
+
+.slider-section .slider{
+    background-color: blueviolet;
+    padding: 4.5rem 2.5rem;
+    border-radius: 2rem;
+    margin-top: 6rem;
+}
+
+.slider .card{
+    padding: 1rem;
+    min-width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.image-div{
+    display: flex;
+    align-items: center;
+    
+}
+
+.image-div img{
+    width: 75px;
+}
+
+.image-div .name{
+    margin-left: 1rem;
+}
+
+
+.card .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding-left: 5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.btn-div{
+    float: right;
+    margin-top: 0.5rem;
+}
+
+.slider h3{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
