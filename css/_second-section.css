@@ -84,6 +84,7 @@
     color: #4b5d68;
     opacity: 0.6;
     transition: 0.3s;
+    user-select: none;
 }
 
 .divs-des a:hover{

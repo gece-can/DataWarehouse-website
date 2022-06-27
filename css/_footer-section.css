@@ -1,0 +1,128 @@
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+    padding-top: 5rem;
+    border-top: 1px solid darkturquoise;
+}
+
+.footer-top-text h3{
+    font-size: 3rem;
+    color: #272d4e;
+}
+
+.footer-top-text p{
+    margin-top: 0.5rem;
+    color: #4d5d68;
+}
+
+.footer-btn-div{
+    display: flex;
+    align-items: center;
+}
+
+.footer-btn-div .footer-purple-button{
+    font-size: 1rem;
+    background-color: blueviolet;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    transition: 0.3s;
+    user-select: none;
+}
+
+.footer-btn-div .footer-purple-button a{
+    color: white;
+}
+
+.footer-btn-div .footer-purple-button:hover{
+    background-color: darkblue;
+}
+
+.footer-btn-div .footer-white-button{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #f9fafd;
+    padding: 0.7rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0.4375rem 0.875rem 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%) !important;
+    user-select: none;
+}
+
+.footer-btn-div .footer-white-button a{
+    color: #4d5d68;
+    font-weight: 600;
+}
+
+.footer-btn-div .footer-white-button i{
+    margin-left: 10px;
+}
+
+.footer-bottom{
+   display: flex;
+   margin-top: 5rem;
+   margin-bottom: 2rem;
+}
+
+.footer-bottom .col{
+    min-width: 25%;
+    margin-right: 2rem;
+}
+
+.footer-bottom .first-col a {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom .first-col a span{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: #272d4e;
+    font-weight: 700;
+}
+
+.footer-bottom .first-col p{
+    padding-top: 1rem;
+    color: #4d5d68;
+}
+
+.footer-bottom .col h6{
+    color: #272d4e;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
+.footer-bottom .col ul li{
+    margin-bottom: 0.5rem;
+}
+
+.footer-bottom .col ul li a{
+    font-size: 0.9rem;
+    color: #0b1727;
+}
+
+.fourth-col .icon-div{
+    display: flex;
+}
+
+.fourth-col .icon-div .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    width: 25px;
+    height: 25px;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    opacity: 0.5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.fourth-col .icon-div .icon:hover{
+    box-shadow: 0 0.4375rem 0.875rem 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%) !important;
+}

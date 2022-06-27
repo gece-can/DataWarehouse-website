@@ -7,7 +7,7 @@
 
 .slider-section .slider{
     background-color: blueviolet;
-    padding: 4.5rem 2.5rem;
+    padding: 5rem 2.5rem;
     border-radius: 2rem;
     margin-top: 6rem;
 }
@@ -47,10 +47,12 @@
 }
 
 .btn{
-    height: 60px;
-    width: 60px;
+    height: 45px;
+    width: 45px;
     border-radius: 1.5rem;
     border: none;
+    cursor: pointer;
+    user-select: none;
 }
 
 .btn-div{
@@ -60,6 +62,6 @@
 
 .slider h3{
     font-size: 2rem;
-    color: #fff;
+    color: #f9fafd;
     margin-bottom: 2.5rem;
 }
